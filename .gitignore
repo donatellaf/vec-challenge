@@ -1,0 +1,33 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+vehiculo-frontend/node_modules
+vehiculo-frontend/.pnp
+vehiculo-frontend/.pnp.js
+
+# testing
+vehiculo-frontend/coverage
+
+# production
+vehiculo-frontend/build
+
+# misc
+vehiculo-frontend/.DS_Store
+vehiculo-frontend/.env.local
+vehiculo-frontend/.env.development.local
+vehiculo-frontend/.env.test.local
+vehiculo-frontend/.env.production.local
+
+vehiculo-frontend/npm-debug.log*
+vehiculo-frontend/yarn-debug.log*
+vehiculo-frontend/yarn-error.log*
+
+
+# api
+vehiculo-api/.vs
+vehiculo-api/Project.API/bin
+vehiculo-api/Project.API/obj
+vehiculo-api/Project.Domain/bin
+vehiculo-api/Project.Domain/obj
+vehiculo-api/Project.Infra.Data/bin
+vehiculo-api/Project.Infra.Data/obj
